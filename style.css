@@ -1,0 +1,16 @@
+html {
+  background-color: #fcfcfc;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+body {
+  padding: 1rem;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}

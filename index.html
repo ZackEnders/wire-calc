@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Hello, this is a wire calculator.</h1>
+
+    <form id="calc">
+      <div class="form-field">
+        <label for="input1">Input 1</label>
+        <input type="number" name="input1" id="input1" min="0" />
+      </div>
+      <div class="form-field">
+        <label for="input2">Input 2</label>
+        <input type="number" name="input2" id="input2" min="0" />
+      </div>
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <h2>Result: <span id="result"></span></h2>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
